@@ -17,8 +17,6 @@ Thumbs.db
 *.swp
 *.swo
 
-# Ignore database dumps
-*.sql
 
 # Ignore environment files
 .env
