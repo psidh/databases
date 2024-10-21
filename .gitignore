@@ -1,0 +1,41 @@
+
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore SQL scripts backups and logs
+*.bak
+*.log
+
+# Ignore compiled files
+*.class
+*.exe
+*.dll
+
+# Ignore user-specific files
+*.swp
+*.swo
+
+# Ignore database dumps
+*.sql
+
+# Ignore environment files
+.env
+.vscode/
+.idea/
+
+# Node.js files (if you use Node.js for any related work)
+node_modules/
+npm-debug.log
+
+# Python virtual environment
+venv/
+__pycache__/
+*.py[cod]
+
+# JetBrains IDEs
+*.iml
+*.iws
+*.ipr
+
