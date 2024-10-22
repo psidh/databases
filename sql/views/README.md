@@ -1,12 +1,4 @@
-# Understanding SQL Views
-
-## Overview
-
-A **view** in SQL is a virtual table that is created based on a query. It provides a simplified way to interact with complex data by allowing users to query a specific subset of the database. Although it behaves like a table, a view does not actually store data; rather, it dynamically retrieves data from the underlying tables.
-
-## Why Use Views?
-
-Views can be incredibly useful in database management, offering several key benefits:
+iews can be incredibly useful in database management, offering several key benefits:
 
 1. **Simplification**: A view can encapsulate a complex query, making it easier for users to retrieve data without needing to understand intricate SQL statements.
 2. **Security**: Views can limit the columns or rows a user can see, restricting access to sensitive information. By creating views, administrators can control what data different users or applications can access.
@@ -51,7 +43,7 @@ For example, in an Apple Store, a view can be created to show only public produc
 
 - **Performance**: Views can sometimes be slower, especially if they involve complex joins or large datasets. Since views do not store data themselves, they must dynamically fetch it from underlying tables every time they are queried.
 - **Limited Updatability**: Not all views can be used to update data. For example, if a view involves joins or aggregate functions, it may not be possible to perform INSERT, UPDATE, or DELETE operations through the view.
-  
+
 ## Conclusion
 
 SQL views are a powerful tool in database management, offering a way to simplify data access, enhance security, and present logical representations of data. By abstracting complex queries and hiding unnecessary or sensitive information, views make it easier to manage and retrieve data efficiently while maintaining data integrity and security.
